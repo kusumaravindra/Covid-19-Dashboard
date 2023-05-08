@@ -107,7 +107,7 @@ class Header extends Component {
               </Link>
             </ul>
             <button
-              data-testid="close-nav-btn"
+              testid="close-nav-btn"
               className="close-nav-btn"
               type="button"
               onClick={this.onClickCloseNav}

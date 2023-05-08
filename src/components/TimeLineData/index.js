@@ -252,7 +252,7 @@ class TimeLineData extends Component {
   }
 
   renderLineChart = lastTenDaysCases => (
-    <div className="graph-container" data-testid="lineChartsContainer">
+    <div className="graph-container" testid="lineChartsContainer">
       <div className="line-chart-wrapper">
         {' '}
         <LineChart
@@ -434,7 +434,7 @@ class TimeLineData extends Component {
   }
 
   renderLoadingView = () => (
-    <div className="covid-loader-container" data-testid="timelinesDataLoader">
+    <div className="covid-loader-container" testid="timelinesDataLoader">
       <Loader type="Oval" color="#0b69ff" height="50" width="50" />
     </div>
   )
